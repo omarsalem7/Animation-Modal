@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>three js project</title>
+	<link rel="stylesheet" type="text/css" href="css/base.css" />
+
+</head>
+
+<body>
+
+	<div class="wrapper">
+		<!-- The canvas element is used to draw the 3D scene -->
+		<canvas id="c"></canvas>
+	</div>
+	
+
+
+	<!-- The main Three.js file -->
+	<script src='https://cdnjs.cloudflare.com/ajax/libs/three.js/108/three.min.js'></script>
+	<!-- This brings in the ability to load custom 3D objects in the .gltf file format. Blender allows the ability to export to this format out the box -->
+	<script src='https://cdn.jsdelivr.net/gh/mrdoob/Three.js@r92/examples/js/loaders/GLTFLoader.js'></script>
+	<!-- partial -->
+	<script src="js/script.js"></script>
+	<script src="js/load.js"></script>
+</body>
+
+</html>
